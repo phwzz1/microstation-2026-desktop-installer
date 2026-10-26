@@ -1,0 +1,8 @@
+name: "microstation-2026-desktop-installer"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

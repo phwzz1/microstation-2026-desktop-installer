@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+# Default behavior
+*.min.js linguist-generated
+*.min.css linguist-generated
+*.png binary
+*.bat text eol=crlf
+*.json linguist-detectable=false
+docs/** linguist-vendored
+*.ico binary
+*.ts linguist-detectable
+node_modules/* linguist-vendored
+
+# eof 0a891129
